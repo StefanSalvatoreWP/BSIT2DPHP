@@ -1,0 +1,63 @@
+// function validateInput(input) {
+//     let isValid = input.value.length <= 15 && input.value.length >= 4;
+  
+//     if (isValid && input.value !== "") {
+//       input.classList.remove("invalidInput");
+//       input.classList.add("validInput");
+//     } else if (!isValid && input.value !== "") {
+//       input.classList.remove("validInput");
+//       input.classList.add("invalidInput");
+//     } else {
+//       input.classList.remove("validInput");
+//       input.classList.remove("invalidInput");
+//     }
+//   }
+
+
+// // function checkInputLength(input) {
+// //     if (input.value.length > 10) {
+// //         alert("Input exceeds maximum length of 10 characters");
+// //         input.value = input.value.slice(0, 10);
+// //     }
+// // }
+
+// // function checkAddressLength(input) {
+// //     if (input.value.length > 15) {
+// //         alert("Input exceeds maximum length of 15 characters");
+// //         input.value = input.value.slice(0, 15); 
+// //     }
+// // }
+
+// // function checkAgeLength(input) {
+// //     if (input.value.length > 3) {
+// //         alert("Input exceeds maximum length of 3 characters");
+// //         input.value = input.value.slice(0, 3);
+// //     }
+// // }
+
+// // function checkGenderLength(input) {
+// //     if (input.value.length > 7) {
+// //         alert("Input exceeds maximum length of 7 characters");
+// //         input.value = input.value.slice(0, 7);
+// //     }
+// // }
+// function validateInput(input) {
+//     // Check the input value and set isValid to true or false
+//     let isValid = input.value.length <= 15;
+  
+//     // Limit the input to 15 characters if it exceeds the maximum length
+//     if (!isValid) {
+//       alert("Input exceeds maximum length of 15 characters");
+//       input.value = input.value.slice(0, 15); 
+//     }
+  
+//     // Add or remove the appropriate CSS class based on the value of isValid
+//     if (isValid) {
+//       input.classList.remove("invalidInput");
+//       input.classList.add("validInput");
+//     } else {
+//       input.classList.remove("validInput");
+//       input.classList.add("invalidInput");
+//     }
+//   }
+  

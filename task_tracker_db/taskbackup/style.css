@@ -1,0 +1,154 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.container-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+
+.container-overlay form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.taskNameContainer {
+  position: relative;
+  right: 20rem;
+}
+.taskNameContainer .taskInput {
+  width: 100px;
+}
+
+.sideBar {
+  border: 2px solid lightgray;
+  width: 20rem;
+  height: 100vh;
+}
+
+hr {
+  width: 15rem;
+}
+
+input.logOutButton {
+  width: 4rem;
+  height: 1rem;
+  padding-left: 20px;
+  border-radius: 7px;
+  background-color: purple;
+  color: white;
+  border: none;
+  position: relative;
+  left: 7.5rem;
+}
+input.logOutButton:hover {
+  cursor: pointer;
+}
+
+input.addTask {
+  width: 10rem;
+  height: 3rem;
+  padding-left: 20px;
+  border-radius: 7px;
+  background-color: purple;
+  color: white;
+  border: none;
+  position: relative;
+  left: 5rem;
+  position: relative;
+  top: 1rem;
+}
+input.addTask:hover {
+  cursor: pointer;
+}
+
+p.userName {
+  font-family: sans-serif;
+  position: relative;
+  left: 5rem;
+  color: purple;
+}
+
+.MiddleContainer {
+  background-image: url("./stargaze.jpg");
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  left: 20.1rem;
+  bottom: 42.2rem;
+}
+.MiddleContainer h1 {
+  position: relative;
+  font-family: sans-serif;
+  left: 20rem;
+  color: white;
+  top: 1rem;
+}
+.MiddleContainer .searchBarContainer input.searchInput {
+  position: relative;
+  bottom: 2.5rem;
+  left: 5rem;
+  height: 1.5rem;
+  padding-left: 10px;
+  border-radius: 7px;
+  border: 1px solid purple;
+}
+.MiddleContainer table {
+  position: relative;
+  left: 5rem;
+}
+.MiddleContainer table th {
+  color: white;
+  background-color: purple;
+  font-family: sans-serif;
+  width: 10rem;
+  border-radius: 24px;
+  padding-left: 10px;
+  border: 1px solid purple;
+}
+.MiddleContainer table td {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-top: 10px;
+  border-radius: 14px;
+  padding-left: 60px;
+  background-color: purple;
+}
+.MiddleContainer input.btnDelete {
+  width: 5rem;
+  height: 30px;
+  border-radius: 7px;
+  border: none;
+  font-weight: 900;
+  position: relative;
+  right: 55px;
+  top: 10px;
+  color: white;
+  background-color: red;
+}
+.MiddleContainer button.btnUpdate {
+  width: 5rem;
+  height: 30px;
+  border-radius: 7px;
+  border: none;
+  font-weight: 900;
+  position: relative;
+  left: 28px;
+  bottom: 20px;
+  color: white;
+  background-color: green;
+}/*# sourceMappingURL=style.css.map */

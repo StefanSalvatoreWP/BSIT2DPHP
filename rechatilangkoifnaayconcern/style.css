@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.jumbotron {
+  position: relative;
+  right: 390px;
+}
+
+a.logoutmain {
+  position: relative;
+  bottom: 62px;
+  right: 150px;
+}
+
+a.goBack {
+  text-decoration: none;
+}
+
+table {
+  position: relative;
+  bottom: 26rem;
+  right: 55rem;
+}
+
+h3.text-muted {
+  position: relative;
+  bottom: 25rem;
+  right: 55rem;
+}
+
+.collapse {
+  position: relative;
+}
+.collapse ul {
+  height: 90px;
+  position: relative;
+  left: 38rem;
+  top: 10px;
+}
+
+.position-relative {
+  position: relative;
+  left: 30px;
+}/*# sourceMappingURL=style.css.map */

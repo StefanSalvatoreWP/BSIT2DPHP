@@ -1,0 +1,42 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+input[type=text] {
+    width: 70%;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: large;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+body {
+ 
+    background-color: black;
+    color: white;
+    font-size: 15px; 
+    background-image: 
+    linear-gradient(to right, black,darkblue);
+  }
+  .contents {
+    border: 1px solid white;
+    float: left;
+    padding: 20px;
+    margin-left: 300px;
+    width: 50%;
+    border-radius: 5px;
+  }
+  input[type=submit] {
+    width: 40%;
+    margin-top: 20px;
+    float: left;
+    margin-left: 200px;
+    border-style: hidden;
+font-size:20px;color:white;    
+background-color: #4da6ff;
+
+  }
+  input[type=submit]:hover {
+    background-color: black;
+    color:white;
+  }

@@ -1,0 +1,351 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 100vh;
+  background-color: green;
+}
+
+body {
+  overflow: hidden;
+}
+
+.navBar {
+  width: 100vw;
+  height: 6rem;
+  background-color: black;
+  position: relative;
+  bottom: 18px;
+}
+.navBar .navbarLogo {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  width: 30rem;
+  left: 24px;
+  top: 95px;
+}
+.navBar .navbarLogo img {
+  width: 54px;
+  height: 54px;
+}
+.navBar .navbarLogo img.removedProjectX {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 154px;
+  height: 54px;
+  position: relative;
+  left: 10px;
+  bottom: 89px;
+}
+.navBar .navbarLogo P {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  top: 20px;
+  left: 20px;
+  position: relative;
+  font-size: smaller;
+  color: white;
+}
+
+.addContainer {
+  position: relative;
+  left: 70rem;
+  top: 4.5rem;
+  width: 7.8rem;
+  height: 2rem;
+}
+.addContainer h1.addEmployee {
+  z-index: 2;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: absolute;
+  width: 7.8rem;
+  height: 2rem;
+  font-size: medium;
+  padding-left: 12px;
+  padding-top: 5px;
+  border-radius: 7px;
+  background-color: white;
+  color: black;
+  bottom: 3.7rem;
+  left: 5rem;
+}
+.addContainer h1.addEmployee:hover {
+  cursor: pointer;
+}
+
+form.studentForm {
+  background-color: lightgreen;
+  position: relative;
+  left: 64rem;
+  width: 20rem;
+  height: 15rem;
+  bottom: 64rem;
+  z-index: 2;
+  display: inline-block;
+  border-radius: 7px;
+}
+form.studentForm label {
+  font-size: larger;
+  position: relative;
+  top: 12px;
+  padding-left: 20px;
+}
+form.studentForm input.studentFormInput {
+  position: relative;
+  left: 17px;
+  width: 15rem;
+  height: 2rem;
+  margin-top: 10px;
+  border-radius: 7px;
+  background-color: whitesmoke;
+  padding-left: 10px;
+  font-size: medium;
+  border: none;
+}
+form.studentForm input.studentSubmit {
+  position: relative;
+  top: 50px;
+  left: 35px;
+  width: 16rem;
+  height: 3rem;
+  border-radius: 7px;
+  border: none;
+}
+form.studentForm input.studentSubmit:hover {
+  cursor: pointer;
+  background-color: red;
+  color: white;
+}
+
+.tblStudent {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 59rem;
+  height: 32rem;
+  position: relative;
+  left: 25rem;
+  bottom: 31.3rem;
+  border-radius: 7px;
+  background-color: black;
+  color: white;
+  /* Hide the default scrollbar */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+  overflow-x: auto;
+  white-space: nowrap; /* prevent line breaks */
+  scroll-behavior: smooth; /* smooth scrolling */
+}
+.tblStudent ::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.tblStudent ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 0.5rem;
+}
+.tblStudent ::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 0.5rem;
+}
+.tblStudent ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.tblStudent label {
+  padding: 5px;
+  display: block;
+}
+.tblStudent table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 60rem;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  border-radius: 7px;
+}
+.tblStudent table tr td {
+  position: relative;
+  left: 3rem;
+  padding-left: 30px;
+}
+.tblStudent table tr td.tdID {
+  position: relative;
+  left: 20px;
+}
+.tblStudent table tr td.tdFirst {
+  position: relative;
+  left: 40px;
+}
+.tblStudent table tr td.tdLast {
+  position: relative;
+  left: 60px;
+}
+.tblStudent table tr td.tdAge {
+  position: relative;
+  left: 35px;
+}
+
+.studentForm.hidden {
+  display: none;
+}
+
+.studentSidebar {
+  position: relative;
+  left: 40px;
+  top: 10px;
+  z-index: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 20rem;
+  height: 32rem;
+  background-color: black;
+  border-radius: 8px;
+  color: white;
+}
+.studentSidebar p {
+  display: inline-block;
+  position: relative;
+  padding-left: 30px;
+}
+.studentSidebar img.phpLogo {
+  position: relative;
+  width: 44px;
+  border-radius: 7px;
+  height: 44px;
+  left: 20px;
+  top: 15px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.studentSidebar .logoDiv {
+  position: relative;
+  top: 1rem;
+  height: 4rem;
+  left: 80px;
+}
+.studentSidebar .logoDiv h1.h1Project {
+  font-size: 2rem;
+  font-style: italic;
+}
+.studentSidebar .logoDiv h1.h1Project span {
+  color: red;
+}
+.studentSidebar ul {
+  list-style: none;
+  position: relative;
+  top: 1rem;
+}
+.studentSidebar ul li {
+  margin-top: 20px;
+  font-size: medium;
+  background-color: brown;
+  color: white;
+  width: 11rem;
+  height: 2rem;
+  padding-left: 60px;
+  padding-top: 10px;
+  border-radius: 7px;
+}
+.studentSidebar ul li:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+.studentSidebar ul li:hover a {
+  color: white;
+  opacity: 1;
+}
+.studentSidebar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.deleteTrashContainer {
+  background-color: red;
+  width: 50px;
+  height: 2rem;
+  position: relative;
+  left: 30px;
+  border-radius: 7px;
+  opacity: 1;
+  bottom: 20px;
+}
+.deleteTrashContainer:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.deleteTrashContainer a.deleteTrash img {
+  padding-top: 5px;
+  width: 24px;
+  height: 24px;
+  padding-left: 13px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: brightness(0%) invert(100%);
+}
+
+.updateWritingContainer {
+  border-radius: 7px;
+  background-color: green;
+  width: 50px;
+  height: 2rem;
+  position: relative;
+  right: 30px;
+  top: 11px;
+}
+.updateWritingContainer:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.updateWritingContainer a.updateInfo img {
+  padding-top: 5px;
+  width: 24px;
+  height: 24px;
+  padding-left: 15px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: brightness(0%) invert(100%);
+}
+
+body.updateBody {
+  width: 100vw;
+  height: 100vh;
+  background-color: green;
+}
+body.updateBody h2 {
+  color: white;
+}
+body.updateBody form.updateForm {
+  width: 25rem;
+  height: 15rem;
+  border-radius: 7px;
+  position: relative;
+  left: 30rem;
+}
+body.updateBody form.updateForm h2 {
+  position: relative;
+  left: 30rem;
+}
+body.updateBody form.updateForm label {
+  font-family: sans-serif;
+  padding-left: 20px;
+}
+body.updateBody form.updateForm input {
+  display: inline-block;
+  height: 2rem;
+  width: 15rem;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+body.updateBody form.updateForm input.ageInput {
+  position: relative;
+  left: 50px;
+}
+body.updateBody form.updateForm input.updateSubmit {
+  margin-left: 110px;
+}
+body.updateBody form.updateForm input.updateSubmit:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
